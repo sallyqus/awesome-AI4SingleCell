@@ -52,6 +52,14 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 
 ### [ANNs](#content)
 
+1. **ACTINN: automated identification of cell types in single cell RNA sequencing.** Bioinformatics 2019. [paper](https://academic.oup.com/bioinformatics/article-pdf/36/2/533/31962865/btz592.pdf)
+   
+    *Feiyang Ma, Matteo Pellegrini.* 
+
+1. **Using neural networks for reducing the dimensions of single-cell RNA-Seq data.** NAR 2017. [paper](https://academic.oup.com/nar/article-pdf/45/17/e156/25366829/gkx681.pdf)
+   
+    *Chieh Lin, Siddhartha Jain, Hannah Kim, Ziv Bar-Joseph.* 
+
 
 ### [CNNs](#content)
 
@@ -79,9 +87,22 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
    
     *Mohamed Marouf, Pierre Machart, Vikas Bansal, Christoph Kilian, Daniel S. Magruder, Christian F. Krebs, Stefan Bonn.* 
 
+1. **Super-OT: Optimal Transport using GANs for Lineage Tracing.** arxiv. 2020. [paper](https://arxiv.org/pdf/2007.12098.pdf)
+   
+    *Neha Prasad, Karren D. Yang, Caroline Uhler.* 
+
     
 
 ### [AE/VAE](#content)
+
+1. **AutoImpute: Autoencoder based imputation of single-cell RNA-seq data.** Sci. Rep. 2018. [paper](https://www.nature.com/articles/s41598-018-34688-x.pdf)
+   
+    *Divyanshu Talwar, Aanchal Mongia, Debarka Sengupta & Angshul Majumdar.* 
+
+1. **Interpretable dimensionality reduction of single cell transcriptome data with deep generative models.** Nat. Comm. 2018. [paper](https://www.nature.com/articles/s41592-018-0229-2.pdf)
+   
+    *Jiarui Ding, Anne Condon, Sohrab P. Shah.* 
+    
 1. **scVI: Deep generative modeling for single-cell transcriptomics.** Nat. Methods 2018. [paper](https://www.nature.com/articles/s41592-018-0229-2.pdf)
    
     *Romain Lopez, Jeffrey Regier, Michael B. Cole, Michael I. Jordan, Nir Yosef.* 
@@ -89,7 +110,7 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 1. **scANVI: Probabilistic Harmonization and Annotation of Single-cell Transcriptomics Data with Deep Generative Models.** bioRxiv 2019. [paper](https://www.biorxiv.org/content/10.1101/532895v2.full.pdf)
    
     *Chenling Xu, Romain Lopez, Edouard Mehlman, Jeffrey Regier, Michael I. Jordan, Nir Yosef.* 
-    
+
 1. **SAVER-X: Data denoising with transfer learning in single-cell transcriptomics.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41592-019-0537-1.pdf)
    
     *Jingshu Wang, Divyansh Agarwal, Mo Huang, Gang Hu, Zilu Zhou, Chengzhong Ye, Nancy R. Zhang.* 
@@ -98,14 +119,29 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
    
     *Ye Yuan, Ziv Bar-Josepha.* 
     
+1. **scScope: Scalable analysis of cell-type composition from single-cell transcriptomics using deep recurrent learning.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41592-019-0353-7.pdf)
+   
+    *Yue Deng, Feng Bao, Qionghai Dai, Lani F. Wu & Steven J. Altschuler.* 
+    
+1. **DCA: Single-cell RNA-seq denoising using a deep count autoencoder.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41467-018-07931-2.pdf)
+   
+    *Gökcen Eraslan, Lukas M. Simon, Maria Mircea, Nikola S. Mueller, Fabian J. Theis.* 
+    
 1. **SAUCIE: Exploring single-cell data with deep multitasking neural networks.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41592-019-0576-7.pdf)
    
     *Matthew Amodio, David van Dijk, Krishnan Srinivasan, William S. Chen, Hussein Mohsen, Kevin R. Moon, Allison Campbell, Yujiao Zhao, Xiaomei Wang, Manjunatha Venkataswamy, Anita Desai, V. Ravi, Priti Kumar, Ruth Montgomery, Guy Wolf, Smita Krishnaswamy* 
-    
+
+1. **DESC: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis.** Nat. Comm. 2020. [paper](https://www.nature.com/articles/s41467-020-15851-3.pdf)
+   
+    *Xiangjie Li, Kui Wang, Yafei Lyu, Huize Pan, Jingxiao Zhang, Dwight Stambolian, Katalin Susztak, Muredach P. Reilly, Gang Hu, Mingyao Li* 
     
 
 ## [Graph Neural Networks](#content)  
 
+1. **scDeepsort: Reference-free Cell-type Annotation for Single-cell Transcriptomics using Deep Learning with a Weighted Graph Neural Network.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v2.full.pdf)
+   
+    *Xin Shao, Haihong Yang, Xiang Zhuang, Jie Liao, Yueren Yang, Penghui Yang, Junyun Cheng, Xiaoyan Lu, Huajun Chen, Xiaohui Fan* 
+    
 ## [Reinforcement Learning](#content)   
 ## [Natural Language Processing](#content)  
 
