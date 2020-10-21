@@ -1,4 +1,7 @@
 # Awesome AI4SingelCell
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 Papers on deep learning based methodology for single cell data analysis. This repo covers papers from a variety of sources, including conferences, conference workshops, journals, arxiv, bioRxiv, medRxiv and so on. 
 
 These papers are categoried by methods, which can be seen in the following content table. Some papers target at on task of single cell data analysis while some aim at multiple tasks. We can basically tell from their titles.
@@ -40,11 +43,9 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
 
     *Gregory P. Way, Casey S. Greene.* 
     
-1. **Deep learning: new computational modelling techniques for genomics. ** Nat. Reviews Genetics 2018. [paper](https://www.nature.com/articles/s41576-019-0122-6.pdf)
+1. **Deep learning: new computational modelling techniques for genomics.** Nat. Reviews Genetics 2018. [paper](https://www.nature.com/articles/s41576-019-0122-6.pdf)
 
     *Gökcen Eraslan, Žiga Avsec, Julien Gagneur, Fabian J. Theis*
-
-
 
 1. **Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics.** Pac Symp Biocomput. 2019. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6417816/pdf/nihms-999823.pdf)
 
@@ -66,12 +67,19 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
    
     *Chieh Lin, Siddhartha Jain, Hannah Kim, Ziv Bar-Joseph.* 
 
+1. **DeepImpute: an accurate, fast, and scalable deep neural network method to impute single-cell RNA-seq data.** Genome Biology 2019. [paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1837-6)
+   
+    *Cédric Arisdakessian, Olivier Poirion, Breck Yunits, Xun Zhu & Lana X. Garmire.* 
 
 ### [CNNs](#content)
 
 1. **Single-Cell Phenotype Classification Using Deep Convolutional Neural Networks.** Journal of Biomolecular Screening 2016. [paper](https://journals.sagepub.com/doi/pdf/10.1177/1087057116631284)
    
     *Oliver Dürr, Beate Sick.* 
+
+1. **Single-cell ATAC-Seq in human pancreatic islets and deep learning upscaling of rare cells reveals cell-specific type 2 diabetes regulatory signatures.** Molecular Metabolism 2019. [paper](https://www.sciencedirect.com/science/article/pii/S2212877819309573#appsec1)
+   
+    *Vivek Rai, Daniel X. Quang, Michael R. Erdos, Darren A. Cusanovich, Riza M. Daza, Narisu Narisu, Luli S. Zou, John P. Didion, Yuanfang Guan, Jay Shendure, Stephen C.J. Parker, Francis S. Collins.* 
     
 ## [Generative Models](#content)   
 
@@ -131,7 +139,11 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
 1. **CNNC: Deep learning for inferring gene relationships from single-cell expression data.** PNAS 2019. [paper](https://www.pnas.org/content/pnas/116/52/27151.full.pdf)
    
     *Ye Yuan, Ziv Bar-Josepha.* 
- 
+
+1. **scDeepCluster: Clustering single-cell RNA-seq data with a model-based deep learning approach.** Nat. Machine Intelligence 2019. [paper](https://www.nature.com/articles/s42256-019-0037-0.pdf)
+   
+    *Tian Tian, Ji Wan, Qi Song, Zhi Wei* 
+
 1. **scScope: Scalable analysis of cell-type composition from single-cell transcriptomics using deep recurrent learning.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41592-019-0353-7.pdf)
    
     *Yue Deng, Feng Bao, Qionghai Dai, Lani F. Wu & Steven J. Altschuler.* 
@@ -160,6 +172,14 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
    
     *Christopher Heje Grønbech, Maximillian Fornitz Vording, Pascal N Timshel, Casper Kaae Sønderby, Tune H Pers, Ole Winther* 
 
+1. **DISC: a highly scalable and accurate inference of gene expression and structure for single-cell transcriptomes using semi-supervised deep learning.** Genome Biology 2020. [paper](https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-020-02083-3)
+   
+    *Nicholas J. Bernstein, Nicole L. Fong, Irene Lam, Margaret A. Roy, David G. Hendrickson, David R. Kelley.* 
+    
+1. **Solo: Doublet Identification in Single-Cell RNA-Seq via Semi-Supervised Deep Learning.** Cell Systems 2020. [paper](https://www.sciencedirect.com/science/article/pii/S2405471220301952)
+   
+    *Yao He, Hao Yuan, Cheng Wu, Zhi Xie.* 
+    
 ## [Graph Neural Networks](#content)  
 
 1. **Unsupervised generative and graph representation learning for modelling cell differentiation.** Sci. Rep.. 2020. [paper](https://www.nature.com/articles/s41598-020-66166-8.pdf)
