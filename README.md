@@ -1,12 +1,15 @@
 # Awesome Papers when Single Cell Meets Deep Learning
-Must-read papers on deep learning based methodology paper for single cell data analysis.
+Papers on deep learning based methodology for single cell data analysis. This repo covers papers from a variety of sources, including conferences, conference workshops, journals, arxiv, bioRxiv, medRxiv and so on. 
 
+These papers are categoried by methods, which can be seen in the following content table. Some papers target at on task of single cell data analysis while some aim at multiple tasks. We can basically tell from their titles.
+
+Note: For convenience, AE and VAE based papers are all put under the category of generative models.
 
 
 ## Contributing
-Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsDeepLearning/pulls), email Sally (sally.qus@gmail.com) or join our chats to add links.
+Please feel free to [pull requests](https://github.com/sallyqus/awesome-AI4SingleCell/pulls), email Sally (sally.qus@gmail.com) or join slack to add links. 
 
-[![Join the chat at https://gitter.im/kjw0612/awesome-rnn](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kjw0612/awesome-rnn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiVxnj8pEiyGKnWqwCg
 
 ## [Content](#content)
 
@@ -17,14 +20,10 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
     <td>&emsp;<a href="#anns">2.1 ANNs </a></td>
     <td>&ensp;<a href="#cnns">2.2 CNNs </a></td>
 </tr>
-<tr>
-    <td>&emsp;<a href="#others">2.3 Others </a></td>
-    <td></td>
-</tr>
 <tr><td colspan="2"><a href="#generative-models">3. Generative Models </a></td></tr> 
 <tr>
-    <td>&emsp;<a href="#gan">3.1 GANs </a></td>
-    <td>&ensp;<a href="#vae">3.2 VAEs </a></td>
+    <td>&emsp;<a href="#gan">3.1 GAN </a></td>
+    <td>&ensp;<a href="#ae-vae">3.2 VAE </a></td>
 </tr>
 <tr><td colspan="2"><a href="#graph-neural-networks">4. Graph Neural Networks</a></td></tr> 
 <tr><td colspan="2"><a href="#reinforcement-learning">5. Reinforcement Learning</a></td></tr> 
@@ -103,7 +102,7 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
     *Yungang Xu, Zhigang Zhang, Lei You, Jiajia Liu, Zhiwei Fan, Xiaobo Zhou.*
     
 
-### [AE/VAE](#content)
+### [AE VAE](#content)
 
 1. **AutoImpute: Autoencoder based imputation of single-cell RNA-seq data.** Sci. Rep. 2018. [paper](https://www.nature.com/articles/s41598-018-34688-x.pdf)
    
@@ -136,15 +135,19 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 1. **scScope: Scalable analysis of cell-type composition from single-cell transcriptomics using deep recurrent learning.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41592-019-0353-7.pdf)
    
     *Yue Deng, Feng Bao, Qionghai Dai, Lani F. Wu & Steven J. Altschuler.* 
-    
+ 
 1. **DCA: Single-cell RNA-seq denoising using a deep count autoencoder.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41467-018-07931-2.pdf)
    
     *Gökcen Eraslan, Lukas M. Simon, Maria Mircea, Nikola S. Mueller, Fabian J. Theis.* 
-    
+ 
 1. **SAUCIE: Exploring single-cell data with deep multitasking neural networks.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41592-019-0576-7.pdf)
    
     *Matthew Amodio, David van Dijk, Krishnan Srinivasan, William S. Chen, Hussein Mohsen, Kevin R. Moon, Allison Campbell, Yujiao Zhao, Xiaomei Wang, Manjunatha Venkataswamy, Anita Desai, V. Ravi, Priti Kumar, Ruth Montgomery, Guy Wolf, Smita Krishnaswamy* 
 
+1. **trVAE: Conditional out-of-sample generation for unpaired data using trVAE.** arXiv 2019. [paper](https://arxiv.org/pdf/1910.01791.pdf)
+   
+    *Mohammad Lotfollahi, Mohsen Naghipourfar, Fabian J. Theis, F. Alexander Wolf.* 
+    
 1. **Multi-Domain Translation between Single-Cell Imaging and Sequencing Data using Autoencoders.** bioRxiv 2019. [paper](https://www.biorxiv.org/content/10.1101/2019.12.13.875922v1.full.pdf)
    
     *Karren Dai Yang, Anastasiya Belyaeva, Saradha Venkatachalapathy, Karthik Damodaran, Adityanarayanan Radhakrishnan, Abigail Katcoff, GV Shivashankar, Caroline Uhler.* 
@@ -162,18 +165,26 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 1. **Unsupervised generative and graph representation learning for modelling cell differentiation.** Sci. Rep.. 2020. [paper](https://www.nature.com/articles/s41598-020-66166-8.pdf)
    
     *Ioana Bica, Helena Andrés-Terré, Ana Cvejic, Pietro Liò * 
+
+    
+1. **SCGNN: scRNA-seq Dropout Imputation via Induced Hierarchical Cell Similarity Graph.** ICML CompBio Workshop. 2020. [paper](https://icml-compbio.github.io/2020/papers/WCBICML2020_paper_17.pdf)
+   
+    *Kexin Huang* 
     
 1. **scDeepsort: Reference-free Cell-type Annotation for Single-cell Transcriptomics using Deep Learning with a Weighted Graph Neural Network.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v2.full.pdf)
    
     *Xin Shao, Haihong Yang, Xiang Zhuang, Jie Liao, Yueren Yang, Penghui Yang, Junyun Cheng, Xiaoyan Lu, Huajun Chen, Xiaohui Fan* 
     
-1. **Imputing Single-cell RNA-seq data by combining Graph Convolution and Autoencoder Neural Networks.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.02.05.935296v1.full.pdf)
+1. **GraphSCI: Imputing Single-cell RNA-seq data by combining Graph Convolution and Autoencoder Neural Networks.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.02.05.935296v1.full.pdf)
    
     *Jiahua Rao, Xiang Zhou, Yutong Lu, Huiying Zhao, Yuedong Yang* 
     
 ## [Reinforcement Learning](#content)   
 ## [Natural Language Processing](#content)  
-
+1. **Representation Learning and Translation between the Mouse and HumanBrain using a Deep Transformer Architecture.** ICML CompBio Workshop 2020. [paper](https://icml-compbio.github.io/2020/papers/WCBICML2020_paper_29.pdf)
+   
+    *Minxing Pang, Jesper Tegner.* 
+    
 ## [Meta Learning](#content)   
 1. **MARS: discovering novel cell types across heterogeneous single-cell experiments.** Nat. Method 2020. [paper](https://www.nature.com/articles/s41592-020-00979-3)
    
