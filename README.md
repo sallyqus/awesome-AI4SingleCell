@@ -2,7 +2,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Papers on deep learning based methodology for single cell data analysis. This repo covers papers from a variety of sources, including conferences, conference workshops, journals, arxiv, bioRxiv, medRxiv and so on. 
+This is a repo holding papers on deep learning based methodology for single cell data analysis. This repo covers papers from a variety of sources, including conferences, conference workshops, journals, arxiv, bioRxiv, medRxiv and so on. 
 
 These papers are categoried by methods, which can be seen in the following content table. Some papers target at on task of single cell data analysis while some aim at multiple tasks. We can basically tell from their titles.
 
