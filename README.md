@@ -1,4 +1,4 @@
-# Awesome Papers when Single Cell Meets Deep Learning
+# Awesome AI4SingelCell
 Papers on deep learning based methodology for single cell data analysis. This repo covers papers from a variety of sources, including conferences, conference workshops, journals, arxiv, bioRxiv, medRxiv and so on. 
 
 These papers are categoried by methods, which can be seen in the following content table. Some papers target at on task of single cell data analysis while some aim at multiple tasks. We can basically tell from their titles.
@@ -15,7 +15,7 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
 
 <table>
 <tr><td colspan="2"><a href="#review-and-analysis-papers">1. Review and Analysis Papers</a></td></tr> 
-<tr><td colspan="2"><a href="#dnns">2. Deep Neural Networks </a></td></tr>
+<tr><td colspan="2"><a href="#deep-neural-networks">2. Deep Neural Networks </a></td></tr>
 <tr>
     <td>&emsp;<a href="#anns">2.1 ANNs </a></td>
     <td>&ensp;<a href="#cnns">2.2 CNNs </a></td>
