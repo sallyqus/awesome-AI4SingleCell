@@ -11,7 +11,7 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 ## [Content](#content)
 
 <table>
-<tr><td colspan="2"><a href="#review-papers">1. Reviews</a></td></tr> 
+<tr><td colspan="2"><a href="#review-and-analysis-papers">1. Review and Analysis Papers</a></td></tr> 
 <tr><td colspan="2"><a href="#dnns">2. Deep Neural Networks </a></td></tr>
 <tr>
     <td>&emsp;<a href="#anns">2.1 ANNs </a></td>
@@ -29,12 +29,13 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 <tr><td colspan="2"><a href="#graph-neural-networks">4. Graph Neural Networks</a></td></tr> 
 <tr><td colspan="2"><a href="#reinforcement-learning">5. Reinforcement Learning</a></td></tr> 
 <tr><td colspan="2"><a href="#natural-language-processing">6. Natural Language Processing</a></td></tr> 
-<tr><td colspan="2"><a href="#bayesian-deep-learning">7. Bayesian Deep Learning </a></td></tr>
+<tr><td colspan="2"><a href="#meta-learning">7. Meta Learning </a></td></tr>
+<tr><td colspan="2"><a href="#neural-archetecture-search">8. Neural Architecture Search  </a></td></tr>
 </table>
 
 
 
-## [Review papers](#content)
+## [Review and Analysis Papers](#content)
 
 1. **Bayesian deep learning for single-cell analysis.** Nat. Method 2018. [paper](https://www.nature.com/articles/s41592-018-0230-9.pdf?origin=ppub)
 
@@ -43,8 +44,14 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 1. **Deep learning: new computational modelling techniques for genomics. ** Nat. Reviews Genetics 2018. [paper](https://www.nature.com/articles/s41576-019-0122-6.pdf)
 
     *Gökcen Eraslan, Žiga Avsec, Julien Gagneur, Fabian J. Theis*
+
+
+
+1. **Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics.** Pac Symp Biocomput. 2019. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6417816/pdf/nihms-999823.pdf)
+
+    *Qiwen Gu, Casey S. Greene.*
     
-1. **Emerging deep learning methods for single-cell RNA-seq data analysis.** Quantitative Biology 2019. [paper](file:///Volumes/GoogleDrive/My%20Drive/Papers/scRNAseq+Computation/2019.Zheng-Wang2019_Article_EmergingDeepLearningMethodsFor.pdf)
+1. **Emerging deep learning methods for single-cell RNA-seq data analysis.** Quantitative Biology 2019. [paper](https://link.springer.com/content/pdf/10.1007/s40484-019-0189-2.pdf)
 
     *Jie Zheng, Ke Wang.*
         
@@ -89,8 +96,11 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 
 1. **Super-OT: Optimal Transport using GANs for Lineage Tracing.** arxiv. 2020. [paper](https://arxiv.org/pdf/2007.12098.pdf)
    
-    *Neha Prasad, Karren D. Yang, Caroline Uhler.* 
+    *Neha Prasad, Karren D. Yang, Caroline Uhler.*
 
+1. **scIGANs: single-cell RNA-seq imputation using generative adversarial networks.** NAR 2020. [paper](https://academic.oup.com/nar/article-pdf/48/15/e85/33697370/gkaa506.pdf)
+   
+    *Yungang Xu, Zhigang Zhang, Lei You, Jiajia Liu, Zhiwei Fan, Xiaobo Zhou.*
     
 
 ### [AE/VAE](#content)
@@ -99,9 +109,13 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
    
     *Divyanshu Talwar, Aanchal Mongia, Debarka Sengupta & Angshul Majumdar.* 
 
-1. **Interpretable dimensionality reduction of single cell transcriptome data with deep generative models.** Nat. Comm. 2018. [paper](https://www.nature.com/articles/s41592-018-0229-2.pdf)
+1. **scvis: Interpretable dimensionality reduction of single cell transcriptome data with deep generative models.** Nat. Comm. 2018. [paper](https://www.nature.com/articles/s41592-018-0229-2.pdf)
    
     *Jiarui Ding, Anne Condon, Sohrab P. Shah.* 
+
+1. **VASC: Dimension Reduction and Visualization of Single-cell RNA-seq Data by Deep Variational Autoencoder.** Genomics, Proteomics & Bioinformatics. 2018. [paper](https://www.sciencedirect.com/science/article/pii/S167202291830439X)
+   
+    *Dongfang Wang, Jin Gu.* 
     
 1. **scVI: Deep generative modeling for single-cell transcriptomics.** Nat. Methods 2018. [paper](https://www.nature.com/articles/s41592-018-0229-2.pdf)
    
@@ -118,7 +132,7 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
 1. **CNNC: Deep learning for inferring gene relationships from single-cell expression data.** PNAS 2019. [paper](https://www.pnas.org/content/pnas/116/52/27151.full.pdf)
    
     *Ye Yuan, Ziv Bar-Josepha.* 
-    
+ 
 1. **scScope: Scalable analysis of cell-type composition from single-cell transcriptomics using deep recurrent learning.** Nat. Methods 2019. [paper](https://www.nature.com/articles/s41592-019-0353-7.pdf)
    
     *Yue Deng, Feng Bao, Qionghai Dai, Lani F. Wu & Steven J. Altschuler.* 
@@ -131,22 +145,38 @@ Please feel free to [pull requests](https://github.com/sallyqus/SingleCellMeetsD
    
     *Matthew Amodio, David van Dijk, Krishnan Srinivasan, William S. Chen, Hussein Mohsen, Kevin R. Moon, Allison Campbell, Yujiao Zhao, Xiaomei Wang, Manjunatha Venkataswamy, Anita Desai, V. Ravi, Priti Kumar, Ruth Montgomery, Guy Wolf, Smita Krishnaswamy* 
 
+1. **Multi-Domain Translation between Single-Cell Imaging and Sequencing Data using Autoencoders.** bioRxiv 2019. [paper](https://www.biorxiv.org/content/10.1101/2019.12.13.875922v1.full.pdf)
+   
+    *Karren Dai Yang, Anastasiya Belyaeva, Saradha Venkatachalapathy, Karthik Damodaran, Adityanarayanan Radhakrishnan, Abigail Katcoff, GV Shivashankar, Caroline Uhler.* 
+    
 1. **DESC: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis.** Nat. Comm. 2020. [paper](https://www.nature.com/articles/s41467-020-15851-3.pdf)
    
     *Xiangjie Li, Kui Wang, Yafei Lyu, Huize Pan, Jingxiao Zhang, Dwight Stambolian, Katalin Susztak, Muredach P. Reilly, Gang Hu, Mingyao Li* 
-    
+
+1. **scVAE: variational auto-encoders for single-cell gene expression data.** Bioinformatics 2020. [paper](https://academic.oup.com/bioinformatics/article/36/16/4415/5838187)
+   
+    *Christopher Heje Grønbech, Maximillian Fornitz Vording, Pascal N Timshel, Casper Kaae Sønderby, Tune H Pers, Ole Winther* 
 
 ## [Graph Neural Networks](#content)  
 
+1. **Unsupervised generative and graph representation learning for modelling cell differentiation.** Sci. Rep.. 2020. [paper](https://www.nature.com/articles/s41598-020-66166-8.pdf)
+   
+    *Ioana Bica, Helena Andrés-Terré, Ana Cvejic, Pietro Liò * 
+    
 1. **scDeepsort: Reference-free Cell-type Annotation for Single-cell Transcriptomics using Deep Learning with a Weighted Graph Neural Network.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v2.full.pdf)
    
     *Xin Shao, Haihong Yang, Xiang Zhuang, Jie Liao, Yueren Yang, Penghui Yang, Junyun Cheng, Xiaoyan Lu, Huajun Chen, Xiaohui Fan* 
     
+1. **Imputing Single-cell RNA-seq data by combining Graph Convolution and Autoencoder Neural Networks.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.02.05.935296v1.full.pdf)
+   
+    *Jiahua Rao, Xiang Zhou, Yutong Lu, Huiying Zhao, Yuedong Yang* 
+    
 ## [Reinforcement Learning](#content)   
 ## [Natural Language Processing](#content)  
 
-## [Bayesian Deep Learning](#content)   
-1. **SAVER-X: Data denoising with transfer learning in single-cell transcriptomics.** Nat. Method 2019. [paper](https://www.nature.com/articles/s41592-019-0537-1.pdf)
+## [Meta Learning](#content)   
+1. **MARS: discovering novel cell types across heterogeneous single-cell experiments.** Nat. Method 2020. [paper](https://www.nature.com/articles/s41592-020-00979-3)
    
-    *Jingshu Wang, Divyansh Agarwal, Mo Huang, Gang Hu, Zilu Zhou, Chengzhong Ye, Nancy R. Zhang.* 
+    *Maria Brbić, Marinka Zitnik, Sheng Wang, Angela O. Pisco, Russ B. Altman, Spyros Darmanis, Jure Leskovec.* 
 
+## [Neural Archetecture Search](#content)   
