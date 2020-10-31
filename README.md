@@ -186,6 +186,9 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
    
     *Ioana Bica, Helena Andrés-Terré, Ana Cvejic, Pietro Liò * 
 
+1. **Disease State Prediction From Single-Cell Data Using Graph Attention Networks.** CHIL. 2020. [paper](https://arxiv.org/pdf/2002.07128)
+   
+    *Neal G. Ravindra, Arijit Sehanobish, Jenna L. Pappalardo, David A. Hafler, David van Dijk* 
     
 1. **SCGNN: scRNA-seq Dropout Imputation via Induced Hierarchical Cell Similarity Graph.** ICML CompBio Workshop. 2020. [paper](https://icml-compbio.github.io/2020/papers/WCBICML2020_paper_17.pdf)
    
@@ -198,6 +201,10 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
 1. **GraphSCI: Imputing Single-cell RNA-seq data by combining Graph Convolution and Autoencoder Neural Networks.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.02.05.935296v1.full.pdf)
    
     *Jiahua Rao, Xiang Zhou, Yutong Lu, Huiying Zhao, Yuedong Yang* 
+    
+1. **GraphSCC: Accurately Clustering Single-cell RNA-seq data by Capturing Structural Relations between Cells through Graph Convolutional Network.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.09.02.278804v1.full.pdf)
+   
+    *Yuansong Zeng, Xiang Zhou, Jiahua Rao, Yutong Lu, Yuedong Yang* 
     
 ## [Reinforcement Learning](#content)   
 ## [Natural Language Processing](#content)  
