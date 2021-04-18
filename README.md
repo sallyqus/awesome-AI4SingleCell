@@ -179,6 +179,10 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
 1. **Solo: Doublet Identification in Single-Cell RNA-Seq via Semi-Supervised Deep Learning.** Cell Systems 2020. [paper](https://www.sciencedirect.com/science/article/pii/S2405471220301952)
    
     *Yao He, Hao Yuan, Cheng Wu, Zhi Xie.* 
+ 
+1. **BABEL enables cross-modality translation between multiomic profiles at single-cell resolution.** PNAS 2021. [paper](https://www.pnas.org/content/118/15/e2023070118)
+   
+    * Kevin E. Wu, Kathryn E. Yost, Howard Y. Chang, James Zou. * 
     
 ## [Graph Neural Networks](#content)  
 
@@ -205,6 +209,10 @@ Slack: https://join.slack.com/t/singlecellomics/shared_invite/zt-ipv6eff4-zp1MiV
 1. **GraphSCC: Accurately Clustering Single-cell RNA-seq data by Capturing Structural Relations between Cells through Graph Convolutional Network.** bioRxiv. 2020. [paper](https://www.biorxiv.org/content/10.1101/2020.09.02.278804v1.full.pdf)
    
     *Yuansong Zeng, Xiang Zhou, Jiahua Rao, Yutong Lu, Yuedong Yang* 
+    
+1. **scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses.** Nat. Comm. 2021. [paper](https://www.nature.com/articles/s41467-021-22197-x)
+   
+    *Juexin Wang, Anjun Ma, Yuzhou Chang, Jianting Gong, Yuexu Jiang, Ren Qi, Cankun Wang, Hongjun Fu, Qin Ma, Dong Xu*     
     
 ## [Reinforcement Learning](#content)   
 ## [Natural Language Processing](#content)  
